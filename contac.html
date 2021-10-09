@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contactos</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact-form.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+
+    <script src='js/device.min.js'></script> 
+</head>
+
+<body>
+<div class="page">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header>
+
+        <div id="stuck_container" class="stuck_container">
+            <div class="container">
+
+                <div class="brand">
+                    <h1 class="brand_name">
+                        El mundo del café
+                    </h1>
+                </div>
+
+                <nav class="nav">
+                    <ul class="sf-menu">
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="1tiposcafe.html">Tipos de café</a>
+                        </li>
+                        <li>
+                            <a href="2tipospan.html">Tipos de pan</a>
+                        </li>
+                        <li>
+                            <a href="3cafealtura.html">Café de altura</a>
+                        </li>
+                        <li>
+                            <a href="4presentaciones.html">Presentaciones</a>
+                        </li>
+                        <li>
+                            <a href="5historia.html">Historia</a>
+                        </li>
+                        <li>
+                            <a href="6composicion.html">Composición</a>
+                        </li>
+                        <li class="active">
+                            <a href="contac.html">Contactos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+    <main>
+        <section class="well well__offset-3">
+            <div class="container">
+                <h2><em>Nuestros</em>Contactos</h2>
+                <div class="row box-3">
+                    <div class="grid_5">
+                        <h2>Formulario de contacto.</h2>
+                        <form id="contact-form" class='contact-form'>
+                            <div class="contact-form-loader"></div>
+                            <fieldset>
+                                <label class="name">
+                                    Tu nombre:
+                                    <input type="text" name="name" placeholder="" value=""
+                                           data-constraints="@Required @JustLetters"/>                
+                                    <span class="empty-message">*This field is required.</span>
+                                    <span class="error-message">*This is not a valid name.</span>
+                                </label>
+                
+                                <label class="email">
+                                   Tu E-mail:
+                                    <input type="text" name="email" placeholder="" value=""
+                                           data-constraints="@Required @Email"/>                
+                                    <span class="empty-message">*This field is required.</span>
+                                    <span class="error-message">*This is not a valid email.</span>
+                                </label>
+                
+                                <label class="message">
+                                    Sugerencias:
+                                    <textarea name="message" placeholder=""
+                                              data-constraints='@Required @Length(min=20,max=999999)'></textarea>                
+                                    <span class="empty-message">*This field is required.</span>
+                                    <span class="error-message">*The message is too short.</span>
+                                </label>
+                
+                                <div class="btn-wr">
+                                    <a class="" href="#" data-type="reset">Borrar</a>
+                                    <a class="" href="#" data-type="submit">Enviar</a>
+                                </div>
+                            </fieldset>
+                            <div class="modal fade response-message">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                    aria-hidden="true">
+                                                &times;
+                                            </button>
+                                            <h4 class="modal-title">Modal title</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            You message has been sent! We will be in touch soon.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>    
+                    <div class="preffix_1 grid_6">
+                        <h2>Información de contacto.</h2>
+                        <p>
+                            Te agradecemos por tener el tiempo de ayudarnos a mejorar, tus observaciones y sugerencias las tomaremos muy en cuenta para futuros cambios. Nuestro proposito es hacer que tu visita sea agradable y de mucha utilidad para el entorno de los amantes del café. Ten la libertad de expresar tus opiniones en las diversas plataformas que te proporcionamos.<br>
+                            Ten un excelente día.
+                        </p>
+                        <address class="address-2">
+                            <div class="address_container">
+                                <p>The Company Name Inc. 9870 St Vincent Place, Glasgow, DC 45 Fr 45.</p></div>
+                            <dl>
+                                <dt>Telphone:</dt> <dd>+503 7150 6485</dd><br>
+                                <dt>E-mail:</dt> <dd><a href="mailto:mundodelcafe@gmail.com">mundodelcafe@gmail.com</a></dd>
+                            </dl>                        
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--========================================================
+                              FOOTER
+    =========================================================-->
+    <footer>
+        <div class="container">
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=+50372533636" target="_blank" class="fab fa-whatsapp"></a></li>
+                  <li><a href="tel:+50325064235" target="_blank" class="fas fa-phone-square-alt"></a></li>  
+                  <li><a href="mailto:mundodelcafe@gmail.com" target="_blank" class="fas fa-envelope"></a></li>
+            </ul>
+            <div class="copyright">
+                Copyright © 2021 K.G.S.V. Todos los derechos reservados.
+            </div><br>
+    </footer>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

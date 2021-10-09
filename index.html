@@ -1,24 +1,345 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
+    <script src="https://kit.fontawesome.com/4a4aa63e31.js" 
+crossorigin="anonymous"></script>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>svmundodelcafe.com</title>
+    <title>Mundo del cafe</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+    <script src='js/device.min.js'></script> 
 </head>
 
-<frameset rows="100%,*" scrolling="no" frameborder="0">
-  
-       <frameset rows="0%,*" scrolling="no" frameborder="0"> !---menu---!
-    	    <frame src="menu.html" name="menu" scrolling="no" frameborder="0">
-    	    <frame src="inicio.html" name="inicio"  frameborder="0">
-       </frameset>  
-  
-</frameset>    
+<body>
+<div class="page">
+    <!--========================================================
+                      CABECERA
+    =========================================================-->
+    <header>
 
+        <div class="camera_container">
+            <div id="camera" class="camera_wrap">
+                <div data-thumb="images/cafe/7-1.jpg" data-src="images/cafe/7.jpg">
+                    <div class="camera_caption fadeIn">
+                    </div>
+                </div>
+                <div data-thumb="images/cafe/2.1.jpg" data-src="images/cafe/2.jpg">
+                    <div class="camera_caption fadeIn">
+                    </div>
+                </div>
+                <div data-thumb="images/cafe/5-1.jpg" data-src="images/cafe/5.jpg">
+                    <div class="camera_caption fadeIn">
+                    </div>
+                </div>
+                <div data-thumb="images/cafe/1-1.jpg" data-src="images/cafe/1.jpg">
+                    <div class="camera_caption fadeIn">
+                    </div>
+                </div>
+            </div>
 
-    <noframes> 
-    <body>
-              include("noframes.html"); 
-    </body>
-    </noframes>
+            <div class="brand wow fadeIn">
+                <h1 class="brand_name stroke">
+                   Mundo<br>del café
+                </h1>
+            </div>
+        </div>
+        
+        <div class="toggle-menu-container">
+            <nav class="nav">
+                <div class="nav_title"></div>
+                <a class="sf-menu-toggle fa fa-bars"></a>
+                <ul class="sf-menu">
+                    <li class="active">
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="1tiposcafe.html">Tipos de café</a>
+                    </li>
+                    <li>
+                        <a href="2tipospan.html">Tipos de pan</a>
+                    </li>
+                    <li>
+                        <a href="3cafealtura.html">Café de altura</a>
+                    </li>
+                    <li>
+                        <a href="4presentaciones.html">Presentaciones</a>
+                    </li>
+                    <li>
+                        <a href="5historia.html">Historia</a>
+                    </li>
+                    <li>
+                        <a href="6composicion.html">Composición</a>
+                    </li>
+                    <li>
+                        <a href="contac.html">Contactos</a>
+                    </li>
+                </ul>
+            </nav>            
+        </div>
 
+    </header>
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+    <main>
+        <section class="well">
+            <div class="container">
+                <h2><em>Bienvenido</em>al mundo del café.</h2>
+                <div class="row">
+                    <div class="grid_6">
+                        <div class="img img__border"><div class="lazy-img" style="padding-bottom: 63.0282%;">
+                            <img data-src="images/cafe2/cafe-1.jpg" alt=""></div></div>
+                        <p class="indents-1" align="justify">
+                            El café es la bebida que se obtiene a partir de los granos tostados y molidos de los frutos de la planta del café (cafeto) es 
+                            altamente estimulante por su contenido de cafeína, una sustancia psicoactiva. Este producto es uno de los más comercializados del 
+                            mundo y una de las tres bebidas más consumidas del mundo (junto con el agua y el té).
+                            El café es uno de los productos agrícolas de mayor importancia económica a nivel mundial, genera ingresos anuales mayores a USD $15 
+                            mil millones para los países exportadores, 
+                            </p>
+                    </div>
+                    <div class="grid_6">
+                        <div class="img img__border"><div class="lazy-img" style="padding-bottom: 63.0282%;">
+                            <img data-src="images/cafe2/cafe-2.jpg" alt=""></div></div>
+                        <p class=" indents-1" align="justify">
+                            y brinda una fuente de trabajo a más de 20 millones de personas en el mundo El Café es la 
+                            segunda bebida más consumida en el mundo, después del agua. 
+                            Así, aunque juntáramos el resto de industrias relacionadas con bebidas, 
+                            serán incapaces de superar la producción de café. Esto nos hace ver dos cosas, primero, que muchísima gente depende de esta bebida a 
+                            nivel económico segundo, que mucha gente es adicta a la misma; y es que la historia nos enseña que ya en sus orígenes que veía el café 
+                            como una sustancia poco natural que podía entenderse incluso como una droga.
+                        </p>
+                    </div>
+                </div>
+                
+                <!--PARTE DE GALERIA DE POSTRES-->
+                <h2><em>Postres</em>con café.</h2>
+            </div>            
+            <div class="gallery">
+                <div class="gallery_col-1">
+                    <a data-fancybox-group="gallery" href="images/cafe2/panna-cotta.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 93.96551724137931%;">
+                        <img data-src="images/cafe2/panna-cotta.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Panna cotta de café.</em></p>
+                                <p>
+                                    ideal cuando queremos preparar un postre rápido y cremoso con ese toque único que le aporta el café
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-fancybox-group="gallery" href="images/cafe2/magdalenas.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 74.13793103448276%;">
+                        <img data-src="images/cafe2/magdalenas.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Magdalenas de café con leche:</em></p>
+                                <p>
+                                    para que los que disfrutan tanto del café que no les basta con mojar las magdalenas en él.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-fancybox-group="gallery" href="images/cafe2/vasitoscrema.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 94.6551724137931%;">
+                        <img data-src="images/cafe2/vasitoscrema.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>
+                                    Vasitos fáciles de crema de café con chantilly:</em></p>
+                                <p>
+                                    perfectos para una sobremesa elegante y glamurosa
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery_col-2">
+                    <a data-fancybox-group="gallery" href="images/cafe2/helado.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 52.48322147651007%;">
+                        <img data-src="images/cafe2/helado.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>
+                                    Helado de café vietnamita:</em></p>
+                                <p>
+                                    para cuando aprieta el calor de verdad y no queremos renunciar a nuestro sabor favorito
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-fancybox-group="gallery" href="images/cafe2/biscotti.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 55.97315436241611%;">
+                        <img data-src="images/cafe2/biscotti.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>
+                                    Biscotti de café con nueces:</em></p>
+                                <p>
+                                    un toque de café para picar entre horas
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-fancybox-group="gallery" href="images/cafe2/pastel.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 96.10738255033557%;">
+                        <img data-src="images/cafe2/pastel.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Pastel vegano de chocolate y café:</em></p>
+                                <p>
+                                    porque se pueden conseguir postres increíbles sin huevo ni lácteos.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery_col-3">
+                    <a data-fancybox-group="gallery" href="images/cafe2/tiramisu.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 93.69676320272572%;">
+                        <img data-src="images/cafe2/tiramisu.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>
+                                    Tiramisú:</em></p>
+                                <p>
+                                    porque no hay que olvidarse de los clásicos, aunque también se puede presentar en forma de originales vasitos de tiramisú.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-fancybox-group="gallery" href="images/cafe2/heladocremoso.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 72.23168654173765%;">
+                        <img data-src="images/cafe2/heladocremoso.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>
+                                    Helado cremoso de chocolate y café:</em></p>
+                                <p>
+                                    porque es la única manera de mejorar un helado de chocolate
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-fancybox-group="gallery" href="images/cafe2/tarta.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 93.69676320272572%;">
+                        <img data-src="images/cafe2/tarta.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Tarta de chocolate con un toque de café:</em></p>
+                                <p>
+                                    porque no hay más que verla para saber que no quedará ni un trozo en la mesa
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--================================================================================================================================================
+        ====================================================================================================================================================-->
+        <section class="parallax parallax1" data-parallax-speed="-0.4">
+            <div class="container">
+                <h2><em>Datos </em>curiosos sobre el café.</h2>
+                <p class="indents-2" align="justify"><FONT size=3 COLOR="black">
+                   - Es la segunda bebida más consumida en el mundo después el agua.<br>
+                   - Se estima que diariamente se beben entre 1,600 y 2 mil millones de tazas al día en el mundo.<br>
+                   - La palabra “café” viene del árabe “Qahhwat Al-bun”, que significa “vino del grano”.<br>
+                   - El café viene de árbol llamada cafeto de hasta seis metros de altura.<br>
+                   - Los efectos del café disminuyen cuando se mezcla con leche.<br>
+                   - Los granos de café en realidad no son granos. Son semillas de fruta.<br>
+                   - El café tiene grandes ventajas para la salud.<br>
+                   - El café puede mejorar el rendimiento físico.<br>
+                   - Está entre los productos más comercializados en el mundo junto con la Coca Cola.<br>
+                   - Existen dos tipos de tueste: natural y torrefacto.<br>
+                   - Libera ácido graso del tejido adiposo.<br>
+                   - Los mayores productores de café en México son Chiapas, Veracruz, Oaxaca, Puebla y Guerrero.<br>
+                   - El 54% de los estadounidenses beben café todos los días.<br>
+                   - Estados Unidos es el país que consume más café en el mundo.<br>
+                   - El 65% de los cafés se toman en el desayuno.</FONT>
+                </p>
+            </div>
+        </section>
+        <!--================================================================================================================================================
+        ====================================================================================================================================================-->
+        <section class="well well__offset-1 bg-1">
+            <div class="container">
+                <h2><em>Una de las mejores </em>cafeterias del mundo.</h2>
+                <div class="row row__offset-1">
+                    <div class="grid_4">
+                        <figure>
+                            <div class="img lazy-img" style="padding-bottom: 101.0810810810811%;"><img data-src="images/cafe2/cafeteria1.jpg" alt=""></div>
+                            <figcaption>Els Quatre Gats (Barcelona)</figcaption>
+                        </figure>
+                        <p align="justify">
+                            Mítica cafetería de Barcelona, fundada en 1897 y célebre por haber congregado la vida cultural de la ciudad condal durante muchos años. 
+                            De inconfundible fisonomía neogótica, fue una de las cafeterías más importantes de la Belle Epoque española. Inspirada en «Le chat noir» 
+                            parisina, se convirtió pronto en el centro de la intelectualidad de Barcelona. ¡De hecho llegó a editar una revista propia a finales del 
+                            siglo XIX!
+                        </p>
+                    </div>
+                    <div class="grid_4">
+                        <figure>
+                            <div class="img lazy-img" style="padding-bottom: 101.0810810810811%;"><img data-src="images/cafe2/cafeteria2.jpg" alt=""></div>
+                            <figcaption>Casa Municipal (Praga)</figcaption>
+                        </figure>
+                        <p align="justify">
+                            Praga es una ciudad de cafeterías. Es difícil decidirse por una, aunque tal vez la más hermosa y conocida sea la Casa Municipal. 
+                            Su belleza tiene mucho que ver con la contribución de Alfons Mucha, un artista célebre mundialmente por sus pinturas Art Noveau. 
+                            Como la mayoría de cafés históricos, la Casa Municipal fue un centro de reunión de artistas e intelectuales en el pasado. Hoy, sin 
+                            embargo, es más frecuentado por turistas. Tal vez ya no se pueda topar uno con poetas en su interior, aunque te aseguramos que el 
+                            café que te servirán también es poesía pura.
+                        </p>
+                    </div>
+                    <div class="grid_4">
+                        <figure>
+                            <div class="img lazy-img" style="padding-bottom: 101.0810810810811%;"><img data-src="images/cafe2/cafeteria3.jpg" alt=""></div>
+                            <figcaption>Café Gijón (Madrid)</figcaption>
+                        </figure>
+                        <p align="justify">
+                            Fundado en 1888, es una versión castiza de «Els Quatre Gats». Ubicada en el madrileño Paseo de Recoletos, lo que en un principio no 
+                            aspiraba a ser más que un modesto bar se convirtió con el andar del siglo XX en la casa de las mejores y más fecundas tertulias de España. 
+                            En él se reunían para beber y polemizar figuras de la talla de Valle Inclán, García Lorca, Ortega y Gasset, Galdós, Ramón y Cajal o Camilo 
+                            José Cela. Tal importancia en la vida cultural española del pasado siglo le ha valido la declaración de Bien de Interés Cultural en la 
+                            categoría de «hecho cultural». Y sí, es un hecho: todavía lo frecuentan escritores e intelectuales, así que no te extrañe toparte con 
+                            alguno si algún día decides tomarte un café en su interior o en su terraza.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="well well__offset-2">
+            <div class="container center">
+                <h2><em>Conoce un poco </em>sobre el mundo del café.</h2>
+                <p class="indents-2" align="justify">
+                    Somos una pagina web dedicada a todo tipo de contenido relacionado con el café. Nuestra visión es llevar a más expectadores 
+                    los beneficios que este aporta diariamente, sus usos en cuanto a recetas, postres y hasta platillos fuertes que llegan a ser
+                    un manjar degustado por el mundo. Damos a conocer que no solamentente se degusta un café por la mañana acompañado de alguna 
+                    galleta o pan dulce, si no, tambien se disfruta a cualquier hora del día, sin importar la ocasión o el tiempo.<br>
+                    Te invitamos a que nos compartas tus aportes en la sección de contactos, dejandonos una pequeña reseña de lo que te gustaria 
+                    agregar en un futuro y lo que te gustaria retirar. Tu opinion es muy importante para nosotros.<br>
+                    Ten un lindo día, no olvides disfrutar de una buena taza de café.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!--========================================================
+                              FOOTER
+    =========================================================-->
+    <footer>
+        <div class="container">
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=+50372533636" target="_blank" class="fab fa-whatsapp"></a></li>
+                  <li><a href="tel:+50325064235" target="_blank" class="fas fa-phone-square-alt"></a></li>  
+                  <li><a href="mailto:mundodelcafe@gmail.com" target="_blank" class="fas fa-envelope"></a></li>
+            </ul>
+            <div class="copyright">
+                Copyright © 2021 K.G.S.V. Todos los derechos reservados.
+            </div><br>
+    </footer>
+</div>
+
+<script src="js/script.js"></script>
+</body>
 </html>
